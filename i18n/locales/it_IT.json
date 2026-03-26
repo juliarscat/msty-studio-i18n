@@ -1,0 +1,105 @@
+{
+  "waitingMessage": {
+    "processingContext": "Elaborazione del contesto :: Comprensione del contesto :: Analisi del contesto :: Lettura della situazione :: Collegamento dei punti :: Visione d'insieme :: Ricomposizione del quadro :: Interpretazione della situazione",
+    "scrubbingPIIData": "Pulizia dei dati personali :: Protezione della privacy :: Rimozione delle informazioni personali :: Anonimizzazione dei dati :: Mantenimento della riservatezza :: Modalità privacy attivata :: Oscuramento delle informazioni sensibili :: Passaggio alla modalità anonima",
+    "synthesizingQuery": "Ottimizzazione della ricerca :: Miglioramento della domanda :: Perfezionamento della query :: Raffinamento dei termini di ricerca :: Elaborazione della richiesta :: Messa a punto della domanda :: Creazione della query perfetta :: Valorizzazione delle parole"
+  },
+  "progress": {
+    "initializing": "Inizializzazione..."
+  },
+  "unauthorized": "Non autorizzato",
+  "minimize": "Minimizza",
+  "quantization": "Quantizzazione",
+  "quantizationLevel": "@:quantizzazione Livello",
+  "onboard": {
+    "desktop": {
+      "setupLocalAI": {
+        "pros": {
+          "item4": "Installa e utilizza modelli specializzati"
+        }
+      },
+      "setupMLX": {
+        "description": "Per iniziare, verrà scaricato {modelName}. MLX è il framework ottimizzato di Apple per Apple Silicon.",
+        "pros": {
+          "item1": "Ottimizzato per Apple Silicon (M1, M2, M3, M4)"
+        }
+      }
+    }
+  },
+  "modelHub": {
+    "sidecarLocalAIProxyEndpoint": {
+      "description": "Assicurati che @:remoteToolsConnector.title sia in esecuzione e accessibile all'URL fornito tramite Tunneling. Copia e incolla le informazioni complete di connessione Tunnel con token e URL."
+    },
+    "mlxModels": {
+      "mlxCommunityModels": {
+        "searchPlaceholderAlt": "Cerca modelli MLX ottimizzati da HuggingFace. Oppure inizia con una delle famiglie di modelli qui sotto."
+      }
+    }
+  },
+  "logViewer": {
+    "description": "Visualizza e analizza i log dell'applicazione in tempo reale. Usa filtri e ricerca per risolvere i problemi in modo efficiente."
+  },
+  "settings": {
+    "prompts": {
+      "description": "Questi prompt definiscono come vengono generati i titoli, costruite le query di ricerca, recuperate le conoscenze e sintetizzato il contesto. Le modifiche vengono salvate nelle impostazioni globali di questo dispositivo (database principale) e si applicano a tutti gli spazi di lavoro (non per singolo spazio di lavoro).",
+      "customized": "Personalizzato",
+      "customizedCount": "{count} personalizzati",
+      "selectPrompt": "Seleziona un prompt da personalizzare"
+    },
+    "language": {
+      "sectionTitle": "Lingua e localizzazione"
+    },
+    "remoteToolsConnector": {
+      "enableTunneling": "Abilita Tunneling (Sperimentale)"
+    },
+    "mlx": {
+      "notInstalled": {
+        "description": "Configura @:mlxService per eseguire modelli AI ottimizzati sul tuo Mac Apple Silicon."
+      },
+      "manageModels": {
+        "description": "Sfoglia, installa e gestisci i modelli MLX ottimizzati per Apple Silicon."
+      }
+    }
+  },
+  "modelMatchmaker": {
+    "strengthsLabel": {
+      "daa": {
+        "description": "La capacità di analizzare dati e generare informazioni."
+      },
+      "sum": {
+        "title": "Riassunto",
+        "description": "La capacità di sintetizzare informazioni testuali e numeriche."
+      }
+    },
+    "normalizedScore": "Punteggio normalizzato"
+  },
+  "modelSquad": {
+    "description": "@:modelSquad.title è una raccolta di modelli AI specializzati, dove ogni modello è assegnato a un compito specifico, come la generazione automatica dei titoli, la generazione del riepilogo del @:context, ecc. Quando è il momento di eseguire quel compito specifico, il modello assegnato viene selezionato automaticamente."
+  },
+  "keyboardShortcuts": {
+    "description": "Personalizza le scorciatoie da tastiera per un accesso rapido alle funzionalità"
+  },
+  "knowledgeStack": {
+    "analytics": {
+      "privacyOptimizationScore": "Punteggio di ottimizzazione della privacy",
+      "optimizationTip": "Suggerimento di ottimizzazione",
+      "scaleOptimization": "Ottimizzazione della scala",
+      "optimizedForSpeed": "Configurazione ottimizzata per risposte veloci",
+      "optimizedForQuality": "Configurazione ottimizzata per risultati di alta qualità",
+      "compositionOptimizationScore": "Punteggio di ottimizzazione della composizione",
+      "loadMode": {
+        "description": "Comportamento di caricamento dei file nella Knowledge Stack"
+      }
+    },
+    "chunks": {
+      "synthesizedQuery": "Query sintetizzata"
+    },
+    "chunksVisualizer": {
+      "title": "@:knowledgeStack.chunksConsole.chunks Visualizzatore",
+      "description": "Visualizza come i documenti vengono suddivisi in blocchi",
+      "openStitcher": "Apri visualizzatore",
+      "viewStitcher": "Vedi visualizzatore",
+      "selectFileDescription": "Scegli un file dalla sinistra per visualizzare i suoi blocchi e contenuto"
+    }
+  }
+}
